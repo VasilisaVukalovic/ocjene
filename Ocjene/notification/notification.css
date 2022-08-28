@@ -1,0 +1,28 @@
+.notice{
+    border-radius: 5px;
+    border: 1px solid #b10800;
+    background-color: rgba(177, 4, 0, 0.6);
+    color: rgb(177, 36, 0);
+    text-align: center;
+    font-family: Arial;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+}
+.succes
+{
+    border-radius: 5px;
+    border: 1px solid aqua;
+    background-color: cornflowerblue;
+    color: rgb(300, 100, 0);
+    text-align: center;
+    font-family: Arial;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+
+}

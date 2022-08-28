@@ -1,0 +1,68 @@
+.login-container
+{
+    text-align: center;
+    margin-top: 30vh;
+}
+.header
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header h3
+{
+    margin-top: 0px;
+}
+.header .right-side{
+    text-align: right;
+}
+.center-text
+{
+    text-align: center;
+}
+table
+{
+    margin:auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+table th
+{
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+table td
+{
+    text-align: center;
+    border: 1px solid black;
+}
+.left-text
+{
+    text-align: left;
+    width: 300px;
+}
+tr:nth-child(even)
+{
+    background-color: gray;
+
+}
+tr:nth-child(odd)
+{
+    background-color: #ddd;
+}
+.prelazakOcjena:hover
+{
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer
+{
+    position: absolute;
+    text-align: center;
+    width: 99%;
+    bottom: 30px;
+}

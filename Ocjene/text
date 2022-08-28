@@ -1,0 +1,22 @@
+---------- STVARI KOJE JE PROFESOR KORISTIO A JA NISAM------------------
+
+     *upit za godine
+     SELECT DISTINCT year FROM `grades`
+            LEFT JOIN `subjects`
+            ON grades.subject_id = subjects.ID
+
+     *upit za pravljenje tabele
+
+    $upit = "SELECT * FROM `grades`
+                LEFT JOIN subjects
+                ON subjects.ID = grades.subject_id
+                WHERE grades.user_id=".$_SESSION['user']['ID'];
+
+    if($year!=0)
+        $upit .= " AND subjects.year=".$year;
+
+
+
+
+    *on za notification nema css klasu u folderu dok sam ja to napravio posto ne mogu imat dva taga link rel
+    ja sam je pozvao direko u php notification
